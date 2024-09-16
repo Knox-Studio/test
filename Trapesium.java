@@ -29,3 +29,24 @@ public class Trapesium {
         input.close();
     }
 }
+
+
+/**
+ * Pseudocode:
+    Mulai
+       Input panjang sisi alas a
+        Input panjang sisi atas b
+        Input panjang garis miring c
+        Input panjang garis miring d
+        Input tinggi trapesium t
+
+        Hitung luas trapesium:
+            luas = ((a + b) * t) / 2
+
+        Hitung keliling trapesium:
+            keliling = a + b + c + d
+
+        Tampilkan luas trapesium
+        Tampilkan keliling trapesium
+    Berakhir
+ */

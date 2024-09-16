@@ -21,3 +21,16 @@ public class PersegiPanjang {
         input.close();
     }
 }
+
+
+/**
+ * Pseudocode:
+    Mulai
+       input panjang, lebar, luas
+       hitung luas panjang persegi panjang dengan:
+       luas = panjang * lebar
+       baru dibulatkan 
+       luat = Math.round(luas * 100)/100.00
+       output luas
+    Berakhir
+ */

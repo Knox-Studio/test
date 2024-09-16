@@ -6,8 +6,7 @@ public class Lingkaran {
 
         // Input jari-jari lingkaran
         System.out.print("Masukkan jari-jari lingkaran: ");
-        double r = input.nextDouble();
-
+        double r = input.nextDouble(); 
         // Menghitung luas lingkaran
         double luas = Math.PI * r * r;
 
@@ -21,3 +20,16 @@ public class Lingkaran {
         input.close();
     }
 }
+
+
+/**
+ * Pseudocode:
+    Mulai
+        Input r
+        Hitung luas lingkaran dengan rumus:
+        luas = π * Math.PI * r.
+        Hitung keliling lingkaran dengan rumus:
+        keliling = 2 * Math.PI * r.
+        output luas dan keliling lingkaran.
+    Berakhir
+ */

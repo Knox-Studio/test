@@ -30,11 +30,11 @@ public class BilanganPrima {
 
 /**
  * Pseudocode:
-    Start
-        Input number n
-        If n is less than 2, then it's not prime.
-        Loop from i = 2 to sqrt(n):
-        If n % i == 0, then n is not prime.
-        If no divisors were found, then n is prime.
-    End
+    Mulai
+        Input n
+        jika n kurang dari 2, maka n bukan bilangan prima.
+        Loop dari i = 2 ke sqrt(n):
+        jika n % i == 0, maka n bukan bilangan prima.
+        jika tidak ada pembagi yang ditemukan, maka n adalah bilangan prima.
+    Berakhir
  */

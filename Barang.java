@@ -33,3 +33,24 @@ public class Barang {
         input.close();
     }
 }
+
+/**
+ * Pseudocode:
+    Mulai
+        Input kode barang
+        Input harga barang
+        Input jumlah barang
+
+        Hitung total bayar = harga barang * jumlah barang
+
+        Jika total bayar > 150000, 
+            Hitung diskon = 5% dari total bayar
+        Jika tidak, 
+            Diskon = 0
+
+        Hitung total bayar setelah diskon = total bayar - diskon
+
+        Tampilkan kode barang
+        Tampilkan total bayar setelah diskon
+    Berakhir
+ */
